@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de Salle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">Accueil</a>
+            <a href="reservation.html" class="active">Réservation</a>
+            <a href="tableau.html">Mes Réservations</a>
+            <a href="choix-salle.html">Choix salle</a>
+            <a href="veille.html">Actualité Sportives</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="info">
+            <h1>Réserver une Salle de Sport</h1>
+            <form action="#" method="post" class="reservation-form">
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Heure :</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="room-type">Type de salle :</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="fitness">Fitness</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="cardio">Cardio</option>
+                    <option value="musculation">Musculation</option>
+                </select>
+
+                <label for="duration">Durée (heures) :</label>
+                <input type="number" id="duration" name="duration" min="1" max="4" required>
+
+                <button type="submit" class="btn">Réserver</button>
+            </form>
+        </div>
+    </section>
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
