@@ -28,7 +28,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #2bac33;
+  color: #c52b2b;
   text-decoration: underline;
 }
 
@@ -69,14 +69,14 @@ body {
   font-weight: 600;
   border-radius: 5px;
   color: #fff;
-  background: linear-gradient(225deg, #398531 0%, #2bc563 100%);
+  background: linear-gradient(225deg, #c52b2b 0%, rgb(255, 60, 102) 100%);
   border: none;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 .btn:hover {
-  background: linear-gradient(225deg, #2bc5ae 0%, rgb(60, 255, 63) 100%);
+  background: linear-gradient(225deg, #c52b2b 0%, rgb(255, 60, 102) 100%);
 }
 
 /* Cercles animés d'arrière-plan */
@@ -96,7 +96,7 @@ body {
   list-style: none;
   width: 20px;
   height: 20px;
-  background-color: #3cff46;
+  background-color: #ff533c;
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
@@ -141,7 +141,7 @@ body {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  border-bottom: 3px solid #3cff4c;
+  border-bottom: 3px solid #c52b2b;
 }
 
 .room-card h2 {
